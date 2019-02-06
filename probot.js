@@ -7,7 +7,23 @@ const Canvas = require("canvas"); //npm i canvas
 const prefix = "#" // برفكس
 let profile = JSON.parse(fs.readFileSync("profile.json", "utf8"))
 
+client.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`----------------`);
+   console.log(`Loadinng`);
+   console.log(`Loadinng.`);
+   console.log(`Loadinng..`);
+   console.log(`Loadinng...`);
+   console.log(`This Bots Online ' `);
+   console.log(`----------------`);
+});
 
+client2.on('ready', () => {
+   console.log(`----------------`);
+   console.log(`2 Account Online ✩' `);
+   console.log(`----------------`);
+});
 
 client.on("message", message => {
     if (message.author.bot || !message.guild) return; 
